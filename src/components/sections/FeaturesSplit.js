@@ -50,8 +50,10 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Workflow that just works',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'Ymmärrä asiakkaitesi tarpeita',
+    paragraph: `
+    Kyselijen avulla varmistat että asiakkaasi ovat tyytyväisiä saamaansa palveluun. 
+    Löydät myös piilevät syyt, mihin asiakkaat eivät ole tyytyväisiä.`
   };
 
   return (
@@ -67,14 +69,15 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Reaaliaikainen palaute
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  NPS (Net promoter score)
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
+                  "Kuinka todennäköisesti suosittelisit yrityksen palvelua tai tuotteita ystävällesi tai kollegallesi?” 
+                  Net promoter score on merkittävä mittari – varsinkin jos tavoittelette kasvua ja kehitystä."
+                </p>
               </div>
               <div className={
                 classNames(
@@ -83,7 +86,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
+                  src={'https://psa.visma.fi/wp-content/uploads/2019/11/blog_nps_asiakasuskollisuuden_mittarina.jpg'}
                   alt="Features split 01"
                   width={528}
                   height={396} />
@@ -93,13 +96,14 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Helppo käyttöönotto
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Tekstillinen palaute ja kymmenet valmiit kyselypohjat
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Voitte valita sopivat kyselyt, jotka yhdistävät NPS ja tekstillisiä palautekyseyitä.
+                  Kyselyt on helppo ja nopea kustomoida yrityksellesi sopiviksi
                   </p>
               </div>
               <div className={
@@ -109,7 +113,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
+                  src={'https://www.audienceproject.com/wp-content/uploads/audienceproject_technology_2-2000x2988.jpg'}
                   alt="Features split 02"
                   width={528}
                   height={396} />
@@ -119,13 +123,15 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Automatisoidut kyselyprosessit
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Aseta prosessi kerran, saa jatkuvia tuloksia
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Kysely voidaan lähettää automattisesti aina esimerkiksi heti palvelun jälkeen.
+                  Jos asiakas antaa negatiivisen palautteen, voidaan asiakkaalle lähettää toinen kysely, 
+                  jotta ymmärätte paremmin mihin asiakas ei ollut tyytyväinen.
                   </p>
               </div>
               <div className={
@@ -135,7 +141,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
+                  src={'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'}
                   alt="Features split 03"
                   width={528}
                   height={396} />

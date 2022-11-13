@@ -11,9 +11,12 @@ const Home = () => {
   return (
     <>
       <Hero className="illustration-section-01" />
-      <FeaturesTiles />
       <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" />
-      <Testimonial topDivider />
+      <FeaturesTiles />
+      
+      {
+        //<Testimonial topDivider />
+      }
       <Cta split />
     </>
   );
