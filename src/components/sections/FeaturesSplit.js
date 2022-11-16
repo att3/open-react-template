@@ -70,12 +70,25 @@ const FeaturesSplit = ({
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                   Reaaliaikainen palaute
-                  </div>
+                </div>
                 <h3 className="mt-0 mb-12">
-                  NPS (Net promoter score)
-                  </h3>
+                  Palvelukokemusmittarit
+                </h3>
+                <h4>NPS (suositteleminen)</h4>
                 <p className="m-0">
-                  "Kuinka todennäköisesti suosittelisit yrityksen palvelua tai tuotteita ystävällesi tai kollegallesi?” 
+                  "Kuinka todennäköisesti suosittelisit yrityksen palvelua tai tuotteita ystävällesi tai kollegallesi?”
+                  <br />
+                  <b>Yksinkertainen ja tehokas mittari kertoo teille asiakastyytyväisyyden</b>
+                  <b>NPS arviointi tapahtuu numeraalisella asteikoilla tai hymiöden avulla, jotta arviointi olisi helppoa ja yksinkertaista!</b>
+                </p>
+                <h4>Asiakastyytyväisyys</h4>
+                <p className="m-0">
+                  "Kuinka todennäköisesti suosittelisit yrityksen palvelua tai tuotteita ystävällesi tai kollegallesi?”
+                  Net promoter score on merkittävä mittari – varsinkin jos tavoittelette kasvua ja kehitystä."
+                </p>
+                <h4>Tekstillinen palaute</h4>
+                <p className="m-0">
+                  "Kuinka todennäköisesti suosittelisit yrityksen palvelua tai tuotteita ystävällesi tai kollegallesi?”
                   Net promoter score on merkittävä mittari – varsinkin jos tavoittelette kasvua ja kehitystä."
                 </p>
               </div>
@@ -90,6 +103,11 @@ const FeaturesSplit = ({
                   alt="Features split 01"
                   width={528}
                   height={396} />
+                <Image
+                  src={'https://miro.medium.com/max/4800/1*rBrMe2JdbCaZNdI_i39U8g.png'}
+                  alt="Features split 01"
+                  width={528}
+                  height={396} />
               </div>
             </div>
 
@@ -97,14 +115,20 @@ const FeaturesSplit = ({
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                   Helppo käyttöönotto
-                  </div>
+                </div>
                 <h3 className="mt-0 mb-12">
-                  Tekstillinen palaute ja kymmenet valmiit kyselypohjat
-                  </h3>
+                  Kymmenet valmiit kyselypohjat
+                </h3>
                 <p className="m-0">
-                  Voitte valita sopivat kyselyt, jotka yhdistävät NPS ja tekstillisiä palautekyseyitä.
-                  Kyselyt on helppo ja nopea kustomoida yrityksellesi sopiviksi
-                  </p>
+                  Voitte valita sopivat kyselyt ja helposti muokata niistä yrityksellesi sopivat.
+                  Voitte yhdistää NPS ja tekstillisiä palautekyseyitä.
+                </p>
+                <b>Jotta hallitset palvelupolun asiakaskokemustietoa</b>
+                <ul>
+                  <li>Strukturoidut kyselyt</li>
+                </ul>
+                <p>Tarjoavat teille sekä
+                  numeraalisesti arvioitavaa tietoa että avoimia kysymyksiä asiakkaan palvelupolun eri vaiheilta</p>
               </div>
               <div className={
                 classNames(
@@ -123,16 +147,42 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Automatisoidut kyselyprosessit
-                  </div>
-                <h3 className="mt-0 mb-12">
                   Aseta prosessi kerran, saa jatkuvia tuloksia
-                  </h3>
+                </div>
+                <h3 className="mt-0 mb-12">
+                  Integraatiot ja automatisointi
+                </h3>
                 <p className="m-0">
+                  Ota asiakkaasi automaattisesti yhteyttä huonon arvostelun jälkeen.
+                  Näin voit taata että asiakas saa äänensä kuulluksi ja voit parantaa liiketoimintaasi.
+
+                  <b>Integraatiot</b>
+                  Yli 20 tuettua integraatiota.
+                  <ul>
+                    <li>Rest API</li>
+                    <li>HTML upotus</li>
+                    <li>Chatbotit</li>
+                    <li>Zapier</li>
+                    <li>Zendesk</li>
+                    <li>Google Sheets</li>
+                  </ul>
+
                   Kysely voidaan lähettää automattisesti aina esimerkiksi heti palvelun jälkeen.
-                  Jos asiakas antaa negatiivisen palautteen, voidaan asiakkaalle lähettää toinen kysely, 
+                  Jos asiakas antaa negatiivisen palautteen, voidaan asiakkaalle lähettää toinen kysely,
                   jotta ymmärätte paremmin mihin asiakas ei ollut tyytyväinen.
+
+                  Kyselyihin voi vastata monin eri tavoin. Vastausten kertymistä ja vastauksia voidaan seurata myös tiedonkeruun ollessa käynnissä.
+                  <ul>
+                    <li></li>
+                  </ul>
+
+                  <br />
+                  <b>Palkitse kyselyyn vastaamisesta</b>
+                  <p>
+                    Voit liittää kyselyyn kampanijan jotta saat enemmän vastauksia.
+                    Voit tarjota vastaajalle esimerkiksi alennuksen seuraavasta ostoksesta. 
                   </p>
+                </p>
               </div>
               <div className={
                 classNames(
@@ -141,10 +191,83 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'}
-                  alt="Features split 03"
-                  width={528}
-                  height={396} />
+                  src={'https://img.freepik.com/free-photo/i-wish-this-moment-could-stay-forever_329181-11286.jpg?w=1380&t=st=1668360192~exp=1668360792~hmac=f36a60274969665fd6ef9637e5c590bcda2606a9b87a0dee3381d44f8a7467ab'}
+                  alt="Features split 03" />
+              </div>
+            </div>
+
+
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  Vapaamuotoinen palaute
+                </div>
+                <h3 className="mt-0 mb-12">
+                  Hellpo käyttäjäpalautteen hallinta
+                </h3>
+                <p className="m-0">
+                  Voit helposti hallita kaikkea palautetta.
+                  Järjestelmä näyttää sinulle mikä palaute on käsitelty ja mikä ei.
+
+                  Järjestelmän kautta voit helposti vastata suoraan asiakkaalle hänen antamaansa palautteeseen.
+                  Voit esimerkiksi tarjota asiakkaalle hyvityksen tai ennaltamääriteltyn sähköpostiviestin nappia painamalla.
+
+                  Voit myös helposti lokeroida palautetta oikeille henkilöille käsiteltäväksi
+
+                  <b>
+                    Tehty tiimeille
+                  </b><br />
+                  Sujuvaa tiimityöskenetelyä varten organisaatioissa palaute voidaan
+                  lokeroida ja ohjata oikeille tahoille helposti
+                  <ul>
+                    <li>Organisaatiot</li>
+                    <li>Joukkueet</li>
+                    <li>Ryhmät</li>
+                    <li>Yksilöt</li>
+                  </ul>
+
+                  <b>Aikataulu ja tavoitteet</b><br />
+                  Järjestelmä myös tukee mahdollisuutta asettaa tavoitteita palautteen käsittelyajalle, jotta pysytte aikataulussa.
+                  Palveluun pystytään asettamaan tavoitteellinen palautteen käsittelyaika, jolloin järjestelmä lähettää käsittelijän sähköpostiin muistutuksen määriteltynä ajankohtana ennen tavoiteajan umpeutumista.
+
+                  <b>Monimuotoiset valinnat</b>
+                  <p>Palautteen antaja voi liittää palautteen mukaan mediatiedostoja, kuten PDF tiedostoja, kuvia tai videoita</p>
+
+                  <b>Paperiset palautekyselylomakkeet</b><br />
+                  <b>QR koodi linkki kyselyyn, missä vain, milloin vain</b><br />
+                  <img src="https://th.bing.com/th/id/R.4e1c1348f9e6e2a8697e2fb68584e109?rik=Al9%2fm6RQpAtNCg&riu=http%3a%2f%2fmasfinanzas.com.pe%2fwp-content%2fuploads%2f2019%2f02%2fCodigos-QR_MercadoLibre.jpg&ehk=L%2b%2fNwy%2fZMdIF9TcWSlH0VwCOC1lCQ3RXuIGR3zFt8ro%3d&risl=&pid=ImgRaw&r=0" />
+                  <p>Helppo ja nopea muokata kyselystä yrityksesi näköinen. Voit tilata meiltä korkealaatuisen QR koodi kyselypahvistandin.</p>
+
+                  <b>Reaaliaikainen raportointi</b>
+                  <img src="https://www.d1asia.co.th/application/files/3415/7715/6944/right_all-languages.png" />
+                  <p>Jotta voit tarkistella ja vastata palautteeseen missä vain, milloin vain</p>
+                  <ul>
+                    <li>Valmisraportit sähköpostiin</li>
+                    <li>Päätä vasta kokeilujakson lopussa haluatko jatkaa käyttöä</li>
+                    <li>Kaksisuuntainen viestittely. Vastaa suoraan asiakkaan palauteeseen, tuli palaute sitten
+                      SMS tai sähköposti viestillä.
+                    </li>
+                    <img src="https://gatewayapi.com/wp-content/uploads/2020/05/email-to-and-from-sms-new.svg" />
+                  </ul>
+                  <p>Valmisraportit ovat muokattavissa ja niihin voi valita tiedot esimerkiksi eri päätteiltä</p>
+                  <b>Kyselystandi kioskit</b>
+                  <img src="https://www.d1asia.co.th/application/files/5815/7715/6905/Smiley_touch_in-use4-EN.jpg" />
+                  <p>
+                    Saatavilla kyselykioskeja jotka voit sijoittaa teille sopivaan paikkaan.
+                    Kyselyitä on helppo ja nopea päivittää.
+                  </p>
+                  <img src="https://www.d1asia.co.th/application/files/5415/7715/6964/Web-Smileys-EN-2.jpg" />
+                </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={'https://img.freepik.com/free-photo/i-wish-this-moment-could-stay-forever_329181-11286.jpg?w=1380&t=st=1668360192~exp=1668360792~hmac=f36a60274969665fd6ef9637e5c590bcda2606a9b87a0dee3381d44f8a7467ab'}
+                  alt="Features split 03" />
               </div>
             </div>
 

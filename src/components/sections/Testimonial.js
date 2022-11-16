@@ -44,8 +44,8 @@ const Testimonial = ({
   );
 
   const sectionHeader = {
-    title: 'Customer testimonials',
-    paragraph: 'Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.'
+    title: 'Helppo ja riskitön käyttöönotto',
+    paragraph: 'Ilmaisen 30 päivän kokeilun lisäksi voimme auttaa teitä ottamaan tuotteen käyttöön parhaimalla mahdollisella tavalla yrityksellenne.'
   };
 
   return (
@@ -60,52 +60,33 @@ const Testimonial = ({
 
             <div className="tiles-item reveal-from-right" data-reveal-delay="200">
               <div className="tiles-item-inner">
-                <div className="testimonial-item-content">
-                  <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
-                      </p>
-                </div>
-                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Roman Level</span>
-                  <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
-                  </span>
-                </div>
+                <h3>
+                Askel-askeleelta käytöönotto
+                </h3>
+                <p className="text-sm mb-0">
+                  Yksinkertaisen käyttöönottoprosessin avulla näette askel askeleelta miten saatte otettua järjestelmän yrityksenne käyttöön parhaalla tavalla.
+                </p>
               </div>
             </div>
-
-            <div className="tiles-item reveal-from-bottom">
+            <div className="tiles-item reveal-from-right" data-reveal-delay="200">
               <div className="tiles-item-inner">
-                <div className="testimonial-item-content">
-                  <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
-                      </p>
-                </div>
-                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Diana Rynzhuk</span>
-                  <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
-                  </span>
-                </div>
+                <h3>
+                Puhelin ja chat tuki
+                </h3>
+                <p className="text-sm mb-0">
+                  Mitä ikinä tarvtisettekin, olemme teidän saavutettavissa helposti ja valmiina auttamaan lähes vuorokauden jokaisena tuntina
+                </p>
               </div>
             </div>
-
-            <div className="tiles-item reveal-from-left" data-reveal-delay="200">
+            <div className="tiles-item reveal-from-right" data-reveal-delay="200">
               <div className="tiles-item-inner">
-                <div className="testimonial-item-content">
-                  <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
-                      </p>
-                </div>
-                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Ben Stafford</span>
-                  <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
-                  </span>
-                </div>
+                <h3>
+                  Dokumentaatio & koulutus
+                </h3>
+                <p className="text-sm mb-0">
+                  On teillä kysymys jostain tai tarve oppia lisää, meidän laaja jatkuvasti päivittyvä
+                  dokumentaatio pitää huolen siitä että saat vastauksen kysymykseesi aina mahdollisimman pian!
+                </p>
               </div>
             </div>
 

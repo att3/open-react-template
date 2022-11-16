@@ -61,8 +61,8 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              Asiakaspalautejärjestelmä
-              <span className="text-color-primary"> niille jotka halauvat ymmärtää asiakkaiden tarpeita
+              Asiakaspalautejärjestelmä niille jotka halauvat ymmärtää
+              <span className="text-color-primary"> asiakkaiden tarpeita
               </span>
             </h1>
             <div className="container-xs">
