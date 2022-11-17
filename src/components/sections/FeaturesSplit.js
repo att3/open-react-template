@@ -172,16 +172,14 @@ const FeaturesSplit = ({
                   jotta ymmärätte paremmin mihin asiakas ei ollut tyytyväinen.
 
                   Kyselyihin voi vastata monin eri tavoin. Vastausten kertymistä ja vastauksia voidaan seurata myös tiedonkeruun ollessa käynnissä.
-                  <ul>
-                    <li></li>
-                  </ul>
+
 
                   <br />
-                  <b>Palkitse kyselyyn vastaamisesta</b>
+                  {/*<b>Palkitse kyselyyn vastaamisesta</b>
                   <p>
                     Voit liittää kyselyyn kampanijan jotta saat enemmän vastauksia.
                     Voit tarjota vastaajalle esimerkiksi alennuksen seuraavasta ostoksesta. 
-                  </p>
+                </p>*/}
                 </p>
               </div>
               <div className={
@@ -198,12 +196,22 @@ const FeaturesSplit = ({
 
 
             <div className="split-item">
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={'https://img.freepik.com/free-photo/i-wish-this-moment-could-stay-forever_329181-11286.jpg?w=1380&t=st=1668360192~exp=1668360792~hmac=f36a60274969665fd6ef9637e5c590bcda2606a9b87a0dee3381d44f8a7467ab'}
+                  alt="Features split 03" />
+              </div>
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                   Vapaamuotoinen palaute
                 </div>
                 <h3 className="mt-0 mb-12">
-                  Hellpo käyttäjäpalautteen hallinta
+                  Helppo käyttäjäpalautteen hallinta
                 </h3>
                 <p className="m-0">
                   Voit helposti hallita kaikkea palautetta.
@@ -232,32 +240,77 @@ const FeaturesSplit = ({
 
                   <b>Monimuotoiset valinnat</b>
                   <p>Palautteen antaja voi liittää palautteen mukaan mediatiedostoja, kuten PDF tiedostoja, kuvia tai videoita</p>
+                </p></div></div>
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  Paperihommat
+                </div>
+                <h3 className="mt-0 mb-12">
+                  Hienot pahvilaput QR-koodilla, aarraaa ,juustua.....,
+                </h3>
+                <p className='m-0'>
 
                   <b>Paperiset palautekyselylomakkeet</b><br />
                   <b>QR koodi linkki kyselyyn, missä vain, milloin vain</b><br />
-                  <img src="https://th.bing.com/th/id/R.4e1c1348f9e6e2a8697e2fb68584e109?rik=Al9%2fm6RQpAtNCg&riu=http%3a%2f%2fmasfinanzas.com.pe%2fwp-content%2fuploads%2f2019%2f02%2fCodigos-QR_MercadoLibre.jpg&ehk=L%2b%2fNwy%2fZMdIF9TcWSlH0VwCOC1lCQ3RXuIGR3zFt8ro%3d&risl=&pid=ImgRaw&r=0" />
                   <p>Helppo ja nopea muokata kyselystä yrityksesi näköinen. Voit tilata meiltä korkealaatuisen QR koodi kyselypahvistandin.</p>
+                </p>
+              </div>
 
-                  <b>Reaaliaikainen raportointi</b>
-                  <img src="https://www.d1asia.co.th/application/files/3415/7715/6944/right_all-languages.png" />
-                  <p>Jotta voit tarkistella ja vastata palautteeseen missä vain, milloin vain</p>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={'https://th.bing.com/th/id/R.4e1c1348f9e6e2a8697e2fb68584e109?rik=Al9%2fm6RQpAtNCg&riu=http%3a%2f%2fmasfinanzas.com.pe%2fwp-content%2fuploads%2f2019%2f02%2fCodigos-QR_MercadoLibre.jpg&ehk=L%2b%2fNwy%2fZMdIF9TcWSlH0VwCOC1lCQ3RXuIGR3zFt8ro%3d&risl=&pid=ImgRaw&r=0'}
+                  alt="Features split 03" />
+              </div>
+
+            </div>
+            <div className="split-item">
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={'https://www.d1asia.co.th/application/files/3415/7715/6944/right_all-languages.png'}
+                  alt="Features split 03" />
+              </div>
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  Reaaliaikainen raportointi
+                </div>
+                <h3 className="mt-0 mb-12">
+                  Jotta voit tarkastella ja vastata palautteesen missä vain, milloin vain
+                </h3>
+                <p className='m-0'>
                   <ul>
                     <li>Valmisraportit sähköpostiin</li>
                     <li>Päätä vasta kokeilujakson lopussa haluatko jatkaa käyttöä</li>
                     <li>Kaksisuuntainen viestittely. Vastaa suoraan asiakkaan palauteeseen, tuli palaute sitten
                       SMS tai sähköposti viestillä.
                     </li>
-                    <img src="https://gatewayapi.com/wp-content/uploads/2020/05/email-to-and-from-sms-new.svg" />
                   </ul>
                   <p>Valmisraportit ovat muokattavissa ja niihin voi valita tiedot esimerkiksi eri päätteiltä</p>
-                  <b>Kyselystandi kioskit</b>
-                  <img src="https://www.d1asia.co.th/application/files/5815/7715/6905/Smiley_touch_in-use4-EN.jpg" />
-                  <p>
-                    Saatavilla kyselykioskeja jotka voit sijoittaa teille sopivaan paikkaan.
-                    Kyselyitä on helppo ja nopea päivittää.
-                  </p>
-                  <img src="https://www.d1asia.co.th/application/files/5415/7715/6964/Web-Smileys-EN-2.jpg" />
                 </p>
+              </div>
+            </div>
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+
+
+
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  Kyselystandit ja kioskit
+                </div>
+                <h3 className="mt-0 mb-12">
+                  Saatavilla kyselykioskeja jotka voit sijoittaa teille sopivaan paikkaan.
+                  Kyselyitä on helppo ja nopea päivittää.
+                </h3>
               </div>
               <div className={
                 classNames(
@@ -266,15 +319,17 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={'https://img.freepik.com/free-photo/i-wish-this-moment-could-stay-forever_329181-11286.jpg?w=1380&t=st=1668360192~exp=1668360792~hmac=f36a60274969665fd6ef9637e5c590bcda2606a9b87a0dee3381d44f8a7467ab'}
+                  src={'https://www.d1asia.co.th/application/files/5815/7715/6905/Smiley_touch_in-use4-EN.jpg'}
                   alt="Features split 03" />
               </div>
-            </div>
 
+            </div>
           </div>
+
+
         </div>
-      </div>
-    </section>
+      </div >
+    </section >
   );
 }
 
