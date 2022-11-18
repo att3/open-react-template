@@ -69,27 +69,21 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Reaaliaikainen palaute
+                Palvelukokemusmittarit
                 </div>
                 <h3 className="mt-0 mb-12">
-                  Palvelukokemusmittarit
+                  Asiakastyytyväisyys
                 </h3>
                 <h4>NPS (suositteleminen)</h4>
                 <p className="m-0">
-                  "Kuinka todennäköisesti suosittelisit yrityksen palvelua tai tuotteita ystävällesi tai kollegallesi?”
-                  <br />
-                  <b>Yksinkertainen ja tehokas mittari kertoo teille asiakastyytyväisyyden</b>
-                  <b>NPS arviointi tapahtuu numeraalisella asteikoilla tai hymiöden avulla, jotta arviointi olisi helppoa ja yksinkertaista!</b>
-                </p>
-                <h4>Asiakastyytyväisyys</h4>
-                <p className="m-0">
-                  "Kuinka todennäköisesti suosittelisit yrityksen palvelua tai tuotteita ystävällesi tai kollegallesi?”
-                  Net promoter score on merkittävä mittari – varsinkin jos tavoittelette kasvua ja kehitystä."
+                  <b>Yksinkertainen ja tehokas mittari kertoo teille asiakastyytyväisyydestä todella paljon.</b>
+                  <br/>
+                  Arviointi tapahtuu numeraalisella asteikoilla tai hymiöden avulla, jolloin arvionnin antaminen on helppoa ja nopeaa!
                 </p>
                 <h4>Tekstillinen palaute</h4>
                 <p className="m-0">
-                  "Kuinka todennäköisesti suosittelisit yrityksen palvelua tai tuotteita ystävällesi tai kollegallesi?”
-                  Net promoter score on merkittävä mittari – varsinkin jos tavoittelette kasvua ja kehitystä."
+                  Voitte myös helposti pyytää tekstillistä palautetta asiakkailta samlla tai erikseen, jotta tiedätte tarkkaan
+                  mihin asiakkaat ovat tai eivät ole tyytyväisiä.
                 </p>
               </div>
               <div className={
