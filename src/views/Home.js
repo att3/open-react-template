@@ -18,7 +18,6 @@ const Home = () => {
       {
         <Testimonial topDivider />
       }
-      <GenericSection />
       <Cta split />
     </>
   );
